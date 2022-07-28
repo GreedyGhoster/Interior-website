@@ -1,0 +1,76 @@
+body {
+  background-color: #303030;
+  color: #d0d0d0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  background-color: #303030;
+}
+.header {
+  height: 80px;
+  display: flex;
+}
+.logotype {
+  height: 75px;
+  width: 175px;
+}
+.header button {
+  background-color: #303030;
+  border: none;
+}
+.logo {
+  height: 70px;
+  width: 230px;
+}
+.direction {
+  height: 72px;
+  width: 1357px;
+  display: flex;
+}
+form,
+button {
+  height: 72px;
+}
+.arh,
+.art {
+  width: 157px;
+  text-align: center;
+  margin-top: 6px;
+}
+.vid,
+.diz,
+.tre {
+  width: 127px;
+  margin-top: 6px;
+}
+.tools {
+  height: 72px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+}
+.maincontant {
+  height: 1000px;
+  width: 1587px;
+  background-color: #404040;
+}
+.sidebar {
+  height: 1000px;
+  width: 300px;
+  float: right;
+  background-color: #303030;
+}
+h2 {
+  font-size: 25px;
+}
+.favorite,
+.account,
+.theme {
+  width: 80px;
+}
+.favorite img,
+.account img,
+.theme img {
+  width: 100px;
+}
