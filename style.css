@@ -1,11 +1,10 @@
 body {
   background-color: #303030;
   color: #d0d0d0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Albert Sans", sans-serif;
 }
 header {
-  background-color: #303030;
+  background-color: #353535;
 }
 .header {
   height: 80px;
@@ -28,9 +27,10 @@ header {
   width: 1357px;
   display: flex;
 }
-form,
-button {
-  height: 72px;
+.logo form,
+.logo button {
+  height: 70px;
+  width: 180px;
 }
 .arh,
 .art {
@@ -50,20 +50,6 @@ button {
   display: flex;
   justify-content: center;
 }
-.maincontant {
-  height: 1000px;
-  width: 1587px;
-  background-color: #404040;
-}
-.sidebar {
-  height: 1000px;
-  width: 300px;
-  float: right;
-  background-color: #303030;
-}
-h2 {
-  font-size: 25px;
-}
 .favorite,
 .account,
 .theme {
@@ -72,5 +58,114 @@ h2 {
 .favorite img,
 .account img,
 .theme img {
-  width: 100px;
+  width: 95px;
+  height: 95px;
+}
+.tools button,
+.tools form {
+  height: 70px;
+  width: 80px;
+}
+.content {
+  height: 4700px;
+  width: 1587px;
+  background-color: #343434;
+}
+.sidebar {
+  height: 4700px;
+  width: 300px;
+  float: right;
+  background-color: #404040;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-size: 25px;
+}
+.sidebar a {
+  font-size: larger;
+  text-decoration: none;
+  color: #d0d0d0;
+}
+.post1 {
+  height: 50px;
+  margin: 10px;
+}
+.post2 {
+  height: 70px;
+  margin: 10px;
+}
+.post3 {
+  height: 50px;
+  margin: 10px;
+}
+.post4 {
+  margin-bottom: 1px;
+  height: 70px;
+  margin: 10px;
+}
+.post5 {
+  height: 70px;
+  margin: 10px;
+}
+.post6 {
+  height: 70px;
+  margin: 10px;
+}
+a:active {
+  color: #909090;
+}
+.maincontent {
+  height: 4700px;
+  width: 1000px;
+  background-color: #343434;
+  margin: auto;
+}
+.imgdiz1 {
+  height: 432px;
+  width: 767px;
+  margin: auto;
+}
+.SID {
+  margin-left: 11px;
+}
+.neo,
+.fuz,
+.hy,
+.lof,
+.prov,
+.scan,
+.at {
+  display: flex;
+}
+.neo-p,
+.fuz-p,
+.hy-p,
+.lof-p,
+.prov-p,
+.scan-p,
+.at-p {
+  height: 430px;
+  width: 400px;
+}
+.diz-neo img,
+.diz-fuz img,
+.diz-hy img,
+.diz-lof img,
+.diz-prov img,
+.diz-scan img,
+.diz-at img {
+  height: 430px;
+  width: 450px;
+  margin-left: 50px;
+}
+h3 {
+  font-size: 23px;
+}
+p {
+  font-size: 17px;
+  margin: 14px;
+}
+li {
+  margin: 6px;
 }
