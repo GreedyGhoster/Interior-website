@@ -8,7 +8,9 @@ header {
 }
 .header {
   height: 80px;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 .logotype {
   height: 75px;
@@ -45,37 +47,30 @@ header {
   margin-top: 6px;
 }
 .tools {
-  height: 72px;
-  width: 270px;
   display: flex;
   justify-content: center;
+  margin-top: 1.5%;
 }
 .favorite,
 .account,
 .theme {
   width: 80px;
 }
-.favorite img,
-.account img,
-.theme img {
-  width: 95px;
-  height: 95px;
-}
 .tools button,
 .tools form {
-  height: 70px;
-  width: 80px;
+  height: auto;
+  width: auto;
 }
 .content {
   height: 4700px;
-  width: 1587px;
+  width: 84.3%;
   background-color: #343434;
 }
 .sidebar {
   height: 4700px;
-  width: 300px;
+  width: 15.7%;
   float: right;
-  background-color: #404040;
+  background-color: #303030;
   display: flex;
   flex-direction: column;
 }
@@ -117,7 +112,7 @@ a:active {
 }
 .maincontent {
   height: 4700px;
-  width: 1000px;
+  width: 65%;
   background-color: #343434;
   margin: auto;
 }
